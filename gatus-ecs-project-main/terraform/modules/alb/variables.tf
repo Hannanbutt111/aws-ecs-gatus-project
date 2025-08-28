@@ -1,10 +1,6 @@
 variable "region" {
-    type = string
-    default = "eu-west-1"
-}
-
-variable "acm_cert_arn" {
-    type = string
+  type    = string
+  default = "eu-west-1"
 }
 
 variable "vpc_id" {
